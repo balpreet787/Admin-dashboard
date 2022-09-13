@@ -1,0 +1,22 @@
+.notification{
+    width: 3vh;
+    height: 3vh;
+}
+.pfpSmall{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+}
+.pfpBig{
+    width: 9vh;
+    height: 9vh;
+    border-radius: 50%;
+}
+.dashboard{
+    width: 5vh;
+    height: 5vh;
+}
+.dash{
+    width: 3vh;
+    height: 3vh;
+}
