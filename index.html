@@ -5,100 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 <body>
     <div class="header">
         <div class="columnOne">
-            <input type="text" name="search" id="">
-            <img src="./images/notification.svg" alt="notification" class="notification">
-            <img src="./images/pfp.JPG" alt="pfp" class="pfpSmall">
-            <div class="name">Balpreet Sekhon</div>
+            <div>
+                 <input type="text" name="search" id="" placeholder="🔍 Search">
+                </div>
+            <div></div>
+            <div>
+                <img src="./images/notification.svg" alt="notification" class="notification">
+                <img src="./images/pfp.JPG" alt="pfp" class="pfpSmall">
+                <div class="name">Balpreet Sekhon</div>
+            </div>
         </div>
         <div class="columnTwo">
+            <div class="welcome">
             <img src="./images/pfp.JPG" alt="pfp" class="pfpBig">
-            <div class="welcome">Hi there,
+            <div>
+                 Hi there,
                 <h2>Balpreet Sekhon</h2>
             </div>
-            <button class="head new">New</button>
-            <button class="head upload">Upload</button>
-            <button class="head share">Share</button>
-
+            </div>
+            <div></div>
+            <div>
+                <button class="head new">New</button>
+                <button class="head upload">Upload</button>
+                <button class="head share">Share</button>
+            </div>
         </div>
     </div>
-    <div class="sidebar-left">
+    <div class="sidebarLeft">
         <div class="dashboard">
-            <img src="./images/dashboard.svg" alt="dashboard" class="dashboard">
-            <h2>Dashboard</h2>
-            <div class="browseLinks">
-                <a href="#"><img src="./images/home.svg" alt="Home" class="dash home"> Home</a>
-                <a href="#"><img src="./images/privacy.svg" alt="Profile" class="dash profile"> Profile</a>
-                <a href="#"><img src="./images/message.svg" alt="Messages" class="dash message"> Messages</a>
-                <a href="#"><img src="./images/history.svg" alt="History" class="dash history"> History</a>
-                <a href="#"><img src="./images/tasks.svg" alt="Tasks" class="dash tasks"> Tasks</a>
-                <a href="#"><img src="./images/community.svg" alt="Communities" class="dash community"> Communities</a>
+            <img src="./images/dashboard.svg" alt="dashboard" class="dashboardImg">
+            <h2>  Dashboard</h2>
+            </div>
+            <div class="browserLinks">
+                <a href="#" class="link home"><img src="./images/home.svg" alt="Home" class="dash home"> <span>Home</span> </a>
+                <a href="#" class="link profile"><img src="./images/privacy.svg" alt="Profile" class="dash profile"> <span>Profile</span></a>
+                <a href="#" class="link message"><img src="./images/message.svg" alt="Messages" class="dash message"> <span>Messages</span></a>
+                <a href="#" class="link history"><img src="./images/history.svg" alt="History" class="dash history"> <span>History</span></a>
+                <a href="#" class="link tasks"><img src="./images/tasks.svg" alt="Tasks" class="dash tasks"> <span>Tasks</span></a>
+                <a href="#" class="link community"><img src="./images/community.svg" alt="Communities" class="dash community"> <span>Communities</span></a>
             </div>
             <div class="userSupportLinks">
-                <a href="#"><img src="./images/setting.svg" alt="Settings" class="dash settings"> Settings</a>
-                <a href="#"><img src="./images/support.svg" alt="Support" class="dash support"> Support</a>
-                <a href="#"><img src="./images/privacy.svg" alt="Privacy" class="dash privacy"> Privacy</a>
+                <a href="#" class="link settings"><img src="./images/setting.svg" alt="Settings" class="dash settings"> <span>Settings</span></a>
+                <a href="#" class="link support"><img src="./images/support.svg" alt="Support" class="dash support"> <span>Support</span></a>
+                <a href="#" class="link privacy"><img src="./images/privacy.svg" alt="Privacy" class="dash privacy"> <span>Privacy</span></a>
+            </div>
+    </div>
+
+    <div class="contents">
+    <h3 class="projects">Projects</h3>
+    <div class="contentpara">
+        <div class="content one">
+            <h4>Recipes</h4>
+            <div>Three recipes you can never go wrong with!!(There is even a vegan one!!)</div>
+            <div class="project-links recipes">
+                <a href="https://balpreet787.github.io/odin-recipes/" title="view website"> <img src="./images/view.svg" alt="" class="view"> <img src="./images/view.svg" alt="view" class="view"></a>
+                <a href="https://github.com/balpreet787/odin-recipes"><img src="./images/repository.svg" alt="repository" class="repository"></a>
+            </div>
+        </div>
+        <div class="content two">
+            <h4>Landing Page</h4>
+            <div>A landing page made by a beginner. </div>
+            <div class="project-links landing-page">
+                <a href="https://balpreet787.github.io/Landing-page/" title="view website"> <img src="./images/view.svg" alt="" class="view"> <img src="./images/view.svg" alt="view" class="view"></a>
+                <a href="https://github.com/balpreet787/Landing-page"><img src="./images/repository.svg" alt="repository" class="repository"></a>
+            </div>
+        </div>
+        <div class="content three">
+            <h4>Rock Paper Scissors</h4>
+            <div>Everyone's favourite way to decide things is finally here!!</div>
+            <div class="project-links landing-page">
+                <a href="https://balpreet787.github.io/Rock--Paper-Scissors/" title="view website"> <img src="./images/view.svg" alt="" class="view"> <img src="./images/view.svg" alt="view" class="view"></a>
+                <a href="https://github.com/balpreet787/Rock--Paper-Scissors"><img src="./images/repository.svg" alt="repository" class="repository"></a>
+            </div>
+        </div>
+        <div class="content four">
+            <h4>Etch-A-Sketch</h4>
+            <div>Try it!! you might be the next picasso!!</div>
+            <div class="project-links landing-page">
+                <a href="https://balpreet787.github.io/Etch-a-sketch/" title="view website"> <img src="./images/view.svg" alt="" class="view"> <img src="./images/view.svg" alt="view" class="view"></a>
+                <a href="https://github.com/balpreet787/Etch-a-sketch"><img src="./images/repository.svg" alt="repository" class="repository"></a>
+            </div>
+        </div>
+        <div class="content five">
+            <h4>Calculator</h4>
+            <div>Because not everyone is a God's gift to maths.</div>
+            <div class="project-links landing-page">
+                <a href="https://balpreet787.github.io/calculator/" title="view website"> <img src="./images/view.svg" alt="" class="view"> <img src="./images/view.svg" alt="view" class="view"></a>
+                <a href="https://github.com/balpreet787/calculator"><img src="./images/repository.svg" alt="repository" class="repository"></a>
+            </div>
+        </div>
+        <div class="content six">
+            <h4>A form</h4>
+            <div>Just a boring form that everyone dreads filling</div>
+            <div class="project-links landing-page">
+                <a href="https://balpreet787.github.io/Odin-form/" title="view website"> <img src="./images/view.svg" alt="" class="view"> <img src="./images/view.svg" alt="view" class="view"></a>
+                <a href="https://github.com/balpreet787/Odin-form"><img src="./images/repository.svg" alt="repository" class="repository"></a>
             </div>
         </div>
     </div>
-
-    <div class="content"></div>
-    <h3>Projects</h3>
-    <div class="content one">
-        <h4>A paragraph</h4>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis posuere urna, in imperdiet augue. Donec pretium tristique lectus et rhoncus.
-             Etiam sed nunc quis orci ullamcorper pharetra a eget arcu.
-             Mauris ornare ultrices semper. Proin a ultricies dui, quis luctus odio. Nullam ex nulla, faucibus id nisi ac, congue eleifend libero.</div>
     </div>
-    <div class="content two">
-        <h4>A paragraph</h4>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis posuere urna, in imperdiet augue. Donec pretium tristique lectus et rhoncus.
-             Etiam sed nunc quis orci ullamcorper pharetra a eget arcu.
-             Mauris ornare ultrices semper. Proin a ultricies dui, quis luctus odio. Nullam ex nulla, faucibus id nisi ac, congue eleifend libero.</div>
-    </div>
-    <div class="content three">
-        <h4>A paragraph</h4>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis posuere urna, in imperdiet augue. Donec pretium tristique lectus et rhoncus.
-             Etiam sed nunc quis orci ullamcorper pharetra a eget arcu.
-             Mauris ornare ultrices semper. Proin a ultricies dui, quis luctus odio. Nullam ex nulla, faucibus id nisi ac, congue eleifend libero.</div>
-    </div>
-    <div class="content four">
-        <h4>A paragraph</h4>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis posuere urna, in imperdiet augue. Donec pretium tristique lectus et rhoncus.
-             Etiam sed nunc quis orci ullamcorper pharetra a eget arcu.
-             Mauris ornare ultrices semper. Proin a ultricies dui, quis luctus odio. Nullam ex nulla, faucibus id nisi ac, congue eleifend libero.</div>
-    </div>
-    <div class="content five">
-        <h4>A paragraph</h4>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis posuere urna, in imperdiet augue. Donec pretium tristique lectus et rhoncus.
-             Etiam sed nunc quis orci ullamcorper pharetra a eget arcu.
-             Mauris ornare ultrices semper. Proin a ultricies dui, quis luctus odio. Nullam ex nulla, faucibus id nisi ac, congue eleifend libero.</div>
-    </div>
-    <div class="content six">
-        <h4>A paragraph</h4>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis posuere urna, in imperdiet augue. Donec pretium tristique lectus et rhoncus.
-             Etiam sed nunc quis orci ullamcorper pharetra a eget arcu.
-             Mauris ornare ultrices semper. Proin a ultricies dui, quis luctus odio. Nullam ex nulla, faucibus id nisi ac, congue eleifend libero.</div>
-    </div>
-    <div class="sidebar-right"></div>
-    <h3>Announcements</h3>
+    <div class="sidebarRight">
+    <h3 class="headAnn">Announcements</h3>
     <div class="announcements">
         <div class="announcement 1">
             <h5>Site Maintainence</h5>
-            <div>Quisque facilisis dui eu ex aliquet tempus. Donec bibendum id sem id congue. Sed gravida blandit leo, ac pellentesque ligula lobortis non. </div>
+            <div>Quisque facilisis dui eu ex aliquet tempus. </div>
         </div>
         <div class="announcement 2">
             <h5>Community Share Day</h5>
-            <div>Quisque facilisis dui eu ex aliquet tempus. Donec bibendum id sem id congue. Sed gravida blandit leo, ac pellentesque ligula lobortis non. </div>
+            <div>Quisque facilisis dui eu ex aliquet tempus. </div>
         </div>
         <div class="announcement 3">
             <h5>Updated Privacy Policy</h5>
-            <div>Quisque facilisis dui eu ex aliquet tempus. Donec bibendum id sem id congue. Sed gravida blandit leo, ac pellentesque ligula lobortis non. </div>
+            <div>Quisque facilisis dui eu ex aliquet tempus.</div>
         </div>
+    </div>
+    <h3>Promoted Content</h3>
+    <div class="promotedcontent">
+        <div class="ad 1">
+            <h5>MyLazyPal</h5>
+            <div>Helps keep track of all the takeouts you ordered and how much time you spend sitting on the couch</div>
+        </div>
+        <div class="ad 2">
+            <h5>OurMessages</h5>
+            <div>We keep detailed track of all of your messages.There is no I in message, so why should they be considered yours while sending them? </div>
+        </div>
+        
+    </div>
     </div>
 </body>
 </html>
