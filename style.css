@@ -62,7 +62,7 @@ input{
     gap: 25px;
 }
 .sidebarLeft{
-    background-color: #ffffff;
+    background-color: #dc2626;
     color: #000000;
     display: grid;
     grid-column: 1/2;
